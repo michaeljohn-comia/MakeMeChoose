@@ -1,0 +1,164 @@
+/* import section */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+.container-header{
+    background-color: #0C7489;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.container-main{
+    height: 80vh;
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem;
+}
+.container-main>p{
+    font-size: 30px;
+    text-align: center;
+}
+.wrapper-input{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#addBtn{
+    background-color: #FFFFFF;
+    height: 50px;
+    border: solid 1px;
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+#addBtn:hover{
+    transition: all 0.2s;
+    transform: scale(1.1);
+    background-color: #61EAF1
+}
+#addBtn:active{
+    transition: all 0.2s;
+    transform: scale(1.1);
+    background-color: #61EAF1
+}
+
+.container-footer{
+    color: #FFFFFF;
+    height: 10vh;
+    background-color: #13505B;
+}
+#choiceBtn{
+    border: solid 2px #5ae7ee;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 40px;
+    font-weight: bold;
+}
+#choiceBtn:hover{
+    background-color: #61EAF1;
+}
+#choiceBtn:active{
+    background-color: #61EAF1;
+}
+.wrapperBtnSection{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.input-box{
+    padding: 0.5rem;
+    border: solid 1px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.deleteBtn{
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s
+}
+.deleteBtn:hover{
+    background-color: rgb(243, 123, 123);
+}
+.deleteBtn:active{
+    background-color: rgb(243, 123, 123);
+}
+.inputBoxContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+}
+
+/* container main 2 */
+.container-main2{
+    height: 80vh;
+    background-color: #ECECEC;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem;
+}
+.container-main2>h1{
+    font-size: 35px;
+}
+.wrapper-decision{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#return{
+    background-color: transparent;
+    padding: 1rem 3rem;
+    border: solid 2px #0C7489;
+    cursor: pointer;
+    border-radius: 45px;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+#return:hover{
+    background-color: #0C7489;
+    color: white;
+}
+#return:active{
+    background-color: #0C7489;
+    color: white;
+}
+/* footer */
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: bold;
+}
+.link-section{
+    display: flex;
+    gap: 2rem;
+}
+.link-section>a{
+    text-decoration: underline white;
+    color: white;
+    padding: 0rem 0.5rem;
+    transition: all 0.2s;
+}
+.link-section>a:hover{
+    background-color: white;
+    color: black;
+}
